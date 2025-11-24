@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triqui Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Juego de Triqui</h1>
+
+    <div id="scoreboard">
+        <p>Jugador X: <span id="scoreX">0</span></p>
+        <p>Jugador O: <span id="scoreO">0</span></p>
+        <p>Empates: <span id="ties">0</span></p>
+    </div>
+
+    <div id="board" class="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+
+    <button id="resetBtn">Reiniciar Juego</button>
+
+    <footer>
+        Hecho por: <b>Jesús Urbiñez</b> — Para: <b>Profe Barney (Infraestructura de TI)</b>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
